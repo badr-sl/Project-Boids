@@ -22,7 +22,7 @@ let fish = [];
 
 function preload() {
   // On charge une image de poisson
-  fishImage = loadImage('assets/niceFishtransparent.png');
+  fishImage = loadImage('assets/Blue.png');
   requinImage = loadImage('assets/requin.png');
   img = loadImage('assets/image.png');
   obstacleImage = loadImage('assets/obstacleImage.png');
@@ -174,14 +174,13 @@ function draw() {
         seekForce.mult(1);
         f.applyForce(seekForce);
       }
-      f.flock(flock);
+      f.flock(flock, false);
       f.edges();
       f.update();
       f.show();
   
   
     });
-  
   }
 
   // REQUIN
