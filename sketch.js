@@ -80,7 +80,7 @@ function setup() {
  button.position(10, height - 50);
  button.size(100, 50);
  button.style('background-color', 'red');
- button.html("Instructions");
+ button.html("Instructions du jeux...");
  
  button.mousePressed(() => {
    alert("\n\n" +
