@@ -84,6 +84,8 @@ function setup() {
  
  button.mousePressed(() => {
    alert("\n\n" +
+      "Instructions du jeux :\n\n" +
+     "- Cliquer pour ajouter un obstacle\n" +
      "- d - Activer/Désactiver le mode Debug\n" +
      "- r - Donner une taille aléatoire aux Boids\n" +
      "- c - Créer un Requin\n" +
